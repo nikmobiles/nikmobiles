@@ -1,0 +1,197 @@
+ <!DOCTYPE html>
+    <html lang="bg">
+    <head>
+        <title>iska.me</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="language" content="bg-BG"/>
+<meta http-equiv="content-language" content="bg-BG"/>
+<meta name="description" content="poluchime.com"/>
+  <link rel="icon" href="images/faviconn.ico" type="image/x-icon">
+<meta name="robots" content="noindex, follow"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-214950480-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-214950480-1');
+</script>
+
+
+ 
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style151.css" rel="stylesheet">
+    <link href="css/bgstyleall.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/vendors.min.css" rel="stylesheet">
+	
+
+    <!-- YOUR CUSTOM CSS -->
+	
+	
+	<!-- Modernizr -->
+
+	
+
+
+
+</head>
+
+
+<body>
+	
+
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div><!-- /Preload -->
+	
+
+	
+	<header>
+
+                    <!-- /social -->
+                    <nav>
+                        <ul class="cd-primary-nav">
+                            <li><a href="/index.php"  target="_blank" class="animated_link">Начало</a></li>                            
+                            <li><a href="/termsm/"  target="_blank" class="animated_link">Общи Условия</a></li>
+                             <li><a href="/imprint"  target="_blank" class="animated_link">Правна информация</a></li>                            
+                            <li><a href="/privacy/"  target="_blank" class="animated_link">Политика за поверителност</a></li>
+                         </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /Header -->
+	
+	<main>
+		<div class="container">
+			<div id="wizard_container">
+				
+					 <div class="bg-white">
+                    <div class="container">
+                                                            <div class="panel friends-list">
+    <h4>Запознай се с хора</h4>
+    <ul class="list-box">
+                <li class="js-blink">
+            <img src="/images/p1.jpeg" alt="" width="100%" height="100%" />
+                    </li>
+                <li class="js-blink">
+            <img src="/images/p2.jpg" alt="" width="100%" height="100%" />
+                    </li>
+                <li class="js-blink">
+            <img src="/images/p3.jpg" alt="" width="100%" height="100%" />
+                    </li>
+                <li class="js-blink">
+            <img src="/images/p4.jpg" alt="" width="100%" height="100%" />
+                    </li>
+  <li class="js-blink">
+            <img src="/images/p11.jpg" alt="" width="100%" height="100%" />
+                    </li>
+  <li class="js-blink">
+            <img src="/images/p12.jpg" alt="" width="100%" height="100%" />
+                    </li>
+              
+            </ul>
+</div>
+
+					<!-- Leave for security protection, read docs for details -->
+					<div id="middle-wizard">
+						<div class="step" >
+							<div class="question_title">
+								<h4> Тук ще намерите хора, които има вероятност да познавате!</h4>
+								<p>Молим да бъдете дискретни ако познаете конкретна личност</p>
+							</div>
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="item">
+										
+										 <label for="answer_1"><span><figure><a onclick="gtag_report_conversion('/index.php');"
+href="sms:187077?;&body=LAD Мария ви изпрати снимка отговори с ДА и я виж"><img src="/images/pp1.jpg" alt="Se22"></figure></span><strong>Изпратих ви покана и снимка ако имаш желание ме приеми</strong></label>
+
+									</div>
+								</div>
+
+								<a onclick="gtag_report_conversion('/index.php');"
+href="sms:187077?;&body=LAD Мария ви изпрати снимка отговори с ДА и я виж" class="step__button step__button--1">
+Отворете поканата тук
+</a>
+ <div class="panel friends-list">
+    <h4>Намери интересни хора още днес</h4>
+ <ul class="list-box">
+                <li class="js-blink">
+            <img src="/images/p5.jpg" alt="" width="100%" height="100%" />
+                    </li>
+                <li class="js-blink">
+            <img src="/images/p6.jpg" alt="" width="100%" height="100%" />
+                    </li>
+                <li class="js-blink">
+            <img src="/images/p7.jpg" alt="" width="100%" height="100%" />
+                    </li>
+                <li class="js-blink">
+            <img src="/images/p8.jpg" alt="" width="100%" height="100%" />
+                    </li>
+                <li class="js-blink">
+            <img src="/images/p9.jpg" alt="" width="100%" height="100%" />
+                    </li>
+                <li class="js-blink">
+            <img src="/images/p10.jpg" alt="" width="100%" height="100%" />
+                    </li>
+            </ul>
+</div>
+								</div>
+							</div>
+							<!-- /row-->
+						</div>
+                         
+		<!-- /Container -->
+	</main>
+	<!-- /main -->
+   
+        
+
+
+	<footer>
+	
+<div class="container clearfix">
+<center>© 2021  iska.me</center>
+<a href="#" style="font-size:11px; color: #D8D8D8;">Цената на SMS е 6 лв. BGN с ддс за абонати на Теленор и Виваком! А1 цена 2,4BGN с ддс! С изпращането на SMS Вие декларирате, че сте съгласни с Общите условия!</a></div>
+ <center>
+                    
+                    <a href="/termsm/" target="_blank" style="font-size: 12px; color: #D8D8D8;"> ОБЩИ УСЛОВИЯ.</a></div>
+                     <a href="/imprint/"  target="_blank" style="font-size: 12px; color: #D8D8D8;">Политика за поверителност</a></div>
+                    </center>
+</div></footer>
+	<!-- /footer -->
+	
+	<div class="cd-overlay-nav">
+		<span></span>
+	</div>
+	<!-- /cd-overlay-nav -->
+
+	<div class="cd-overlay-content">
+		<span></span>
+	</div>
+	<!-- /cd-overlay-content -->
+
+	<a href="#" class="cd-nav-trigger">Меню<span class="cd-icon"></span></a>
+	<!-- /cd-nav-trigger -->
+	
+	
+<script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts.min.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/main.js"></script>
+	
+
+	
+</body>
+</html>
