@@ -1,0 +1,565 @@
+#regQuiz {
+    display: block;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    background: #fff;
+    z-index: 999;
+    width: 100%;
+    min-height: 400px;
+    box-shadow: none;
+}
+
+#quizBox {
+    max-width: 500px;
+    width: 100%;
+    padding: 0;
+}
+
+#regTitle {
+    font-size: 1.6rem;
+    line-height: initial;
+}
+
+.questionHolder select, .radioHolder label, textarea#about, #phone, #username, #password {
+    max-width: 360px;
+    width: 100%;
+    margin: 5px auto;
+}
+
+#supportBar p {
+    font-size: 15px;
+}
+
+#supportModal #supportForm #submitSupportForm {
+    max-width: 220px;
+    width: 100%;
+    padding: 10px;
+}
+
+#quizBox .activemale, #nextStep, #submitSupportForm, .radio, #regBtn {
+    background: #4267b3;
+}
+
+#quizBox .activemale:hover, #nextStep:hover, #submitSupportForm:hover, .radio:hover, #regBtn:hover {
+    background-color: #4e75c5;
+}
+
+#loader {
+    z-index: 99;
+}
+
+#spinner {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 55px;
+    height: 55px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: calc(50% - 30px);
+    top: calc(50% - 40px);
+}
+
+#usersOnline {
+    font-size: 1.3rem;
+    line-height: initial;
+}
+
+#acceptTerms {
+    font-size: 1.1rem;
+    margin: 1rem auto;
+}
+
+#womanWaiting {
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#womanWaiting .lastStep2list {
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+#womanWaiting .lastStep2list i {
+    margin-right: 10px;
+}
+
+#qEmail #email {
+    display: block;
+    max-width: 360px;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+#regBtn, #googleCustomBtn {
+    max-width: 320px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+#termsCheck input:checked~.checkbox:after {
+    top: -9px;
+    font-size: 13px;
+}
+
+.checkbox {
+    width: 13px;
+    height: 13px;
+    left: 0;
+    top: 4px;
+}
+
+.condition {
+    font-size: 0.9rem;
+}
+
+* {
+    color: inherit;
+}
+
+body {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+    min-width: 320px;
+    color: #282b31;
+    background: #204080;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.wrapper {
+    min-height: 400px;
+    max-width: 640px;
+    margin: 0 auto 50px;
+    background: #fff
+}
+
+p {
+    margin: 0px 0px;
+}
+
+header {
+    overflow: hidden;
+    background: #4167b2
+}
+
+.step-title {
+    margin-top: 0px;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0.7rem 0;
+    height: 4.4rem
+}
+
+.header-icon {
+    height: 2.2rem;
+    width: 2.2rem;
+    margin: auto 5px;
+    background: url(https://meet-online.s3.eu-central-1.amazonaws.com/bg5/s7h1/img/sprites.png) no-repeat;
+    background-size: 2.8rem;
+}
+
+.camera-icon {
+    background-position: center 0
+}
+
+.message-icon {
+    background-position: center -5.2rem;
+}
+
+.search-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 auto;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    background: #2d487c
+}
+
+.search-block.scroll-btn>span:nth-child(2) {
+    font-size: 1rem;
+}
+
+.search-block .search-icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem 0 0;
+    background: url(https://meet-online.s3.eu-central-1.amazonaws.com/bg5/s7h1/img/sprites.png) no-repeat;
+    background-size: 3.2rem;
+    background-position: center -3.2rem
+}
+
+.header-stories {
+    background: #fff;
+    border-bottom: 2px solid #ced0d4
+}
+
+.stories-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 1.6rem
+}
+
+.stories-item {
+    margin: 0 auto;
+    text-align: center
+}
+
+.stories-item .story-icon {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 0.2rem solid #dcdddf;
+    box-shadow: inset 0 0 0 2px #fff;
+    background: #ccc url(https://meet-online.s3.eu-central-1.amazonaws.com/bg5/s7h1/img/small-members.jpg) no-repeat;
+    background-size: 400% auto;
+}
+
+.stories-item .user-icon-1 {
+    background-position: 0 0
+}
+
+.stories-item .user-icon-2 {
+    background-position: calc(100%/3) 0
+}
+
+.stories-item .user-icon-3 {
+    background-position: calc(100%/3*2) 0
+}
+
+.stories-item .user-icon-4 {
+    background-position: 100% 0
+}
+
+.stories-item p {
+    font-size: 1rem
+}
+
+.stories-item.is-selected .story-icon {
+    border-color: #507df7
+}
+
+.your-story .story-icon {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    background: url(https://meet-online.s3.eu-central-1.amazonaws.com/bg5/s7h1/img/your-icon.png) no-repeat center/ contain
+}
+
+.direct-item {
+    margin-left: 0
+}
+
+.direct-item .story-icon {
+    position: relative;
+    margin-left: 0;
+    background: #fff
+}
+
+.direct-item .story-icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: auto;
+    background: url(https://meet-online.s3.eu-central-1.amazonaws.com/bg5/s7h1/img/sprites.png) no-repeat center -8.5rem;
+    background-size: 2.5rem;
+}
+
+.story-separator {
+    display: table;
+    width: 1px;
+    max-height: 80px;
+    min-height: 70px;
+    margin: 15px 20px;
+    background: #dcdde0;
+}
+
+.container-section {
+    flex: 1 1 auto;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background: #fff
+}
+
+.step-block {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem
+}
+
+.step-item {
+    display: block;
+}
+
+.reaction-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-bottom: 1rem
+}
+
+.reaction-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    margin-right: 0.6rem;
+    color: #a0a4ae
+}
+
+.reaction-item .reaction-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: url(https://meet-online.s3.eu-central-1.amazonaws.com/bg5/s7h1/img/sprites.png) no-repeat;
+    background-size: 3.2rem
+}
+
+.reaction-item .reaction-icon:nth-child(1) {
+    margin: 0;
+    background-position: center -15.4rem
+}
+
+.reaction-item .reaction-icon:nth-child(2) {
+    background-position: center -18.7rem
+}
+
+.reaction-item .reaction-icon:nth-child(3) {
+    background-position: center -21.9rem
+}
+
+.count-item {
+    margin: 0 0.3rem
+}
+
+.info-btns-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 1rem 0;
+    border-top: 1px solid #dcdde0
+}
+
+.info-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.info-btn span {
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    color: #91959c
+}
+
+.info-btn .info-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(https://meet-online.s3.eu-central-1.amazonaws.com/bg5/s7h1/img/sprites.png) no-repeat;
+    background-size: 2.5rem;
+}
+
+[icon-type="like"] .info-icon {
+    background-position: center -19.4rem;
+}
+
+[icon-type="comment"] .info-icon {
+    background-size: 3rem;
+    background-position: center -26.5rem;
+}
+
+[icon-type="share"] .info-icon {
+    background-position: center -31.5rem;
+}
+
+footer {
+    background: #fff
+}
+
+.footer-menu-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 1rem 0;
+    border-top: 1px solid #bbbdc0
+}
+
+.menu-icon {
+    width: 2.6rem;
+    height: 2.6rem;
+    background: url(https://meet-online.s3.eu-central-1.amazonaws.com/bg5/s7h1/img/sprites.png) no-repeat;
+    background-size: 2.6rem;
+}
+
+.menu-icon[icon-type="pager"] {
+    background-position: center -27.7rem;
+}
+
+.menu-icon[icon-type="user"] {
+    background-position: center -30.2rem;
+}
+
+.menu-icon[icon-type="planet"] {
+    background-position: center -32.9rem;
+    position: relative
+}
+
+.menu-icon[icon-type="planet"]:after {
+    content: "2";
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: center;
+    height: 1.4rem;
+    width: 1.4rem;
+    color: #fff;
+    border-radius: 50%;
+    background: #ea3323;
+}
+
+.menu-icon[icon-type="menu"] {
+    background-position: center -35.4rem;
+}
+
+.wobble-animation {
+    -webkit-animation: wobbleHorizontal 0.7s linear both;
+    animation: wobbleHorizontal 0.7s linear both
+}
+
+@-webkit-keyframes wobbleHorizontal {
+    0% {
+        -webkit-transform: translateX(4px);
+    }
+    20% {
+        -webkit-transform: translateX(-4px);
+    }
+    40% {
+        -webkit-transform: translateX(4px);
+    }
+    60% {
+        -webkit-transform: translateX(-4px);
+    }
+    80% {
+        -webkit-transform: translateX(3px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes vobleHorizontal {
+    0% {
+        transform: translateX(4px);
+    }
+    20% {
+        transform: translateX(-4px);
+    }
+    40% {
+        transform: translateX(4px);
+    }
+    60% {
+        transform: translateX(-4px);
+    }
+    80% {
+        transform: translateX(3px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+    .stories-item .story-icon {
+        width: 4rem;
+        height: 4rem;
+        margin: 0 5px;
+    }
+    .privacy_container_inner, .terms_container_inner, #supportModal #supportForm {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 750px) {
+    body {
+        background-image: url(https://meet-online.s3.eu-central-1.amazonaws.com/bg5/s7h1/img/web-bg.png);
+        background-size: cover;
+        background-repeat: repeat-y;
+        background-position: center top;
+    }
+}
+
+@media (max-width: 600px) {
+    .search-block.scroll-btn>span:nth-child(2), .stories-item p, .count-item, .reaction-item, .info-btn span {
+        font-size: 0.9rem;
+    }
+    .reaction-item, .info-btns-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    #regTitle, #usersOnline {
+        font-size: 1.2rem;
+    }
+    * .questionText, #qGender .radio {
+        font-size: 1rem;
+    }
+    #supportBar p {
+        font-size: 13px;
+    }
+    .info-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 479px) {
+    .container-section {
+        padding: 0 0.8rem;
+    }
+}
+
+@media (max-width: 347px) {
+    #stepBack {
+        margin-bottom: 10px;
+    }
+    #stepBtns button {
+        width: 60%;
+    }
+}

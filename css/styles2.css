@@ -1,0 +1,356 @@
+﻿html,body {background:url('') repeat;margin:0px;padding:0px;font-family:Tahoma, sans-serif;
+  font-size:11px;color:#000;width:100%;height:100%;}
+img {border:0px;}
+p, form{margin:0px;padding:0px;}
+a, a:active, a:visited{color:#000;text-decoration:underline;outline:none;}
+a:hover{text-decoration:none;cursor:pointer;}
+input{outline:none;}
+h1, h2, h3{padding:0px;margin:0px;}
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.handler_wrapper {
+position:relative;
+height: 650px;
+background: #ededed; /* Old browsers */
+background: -moz-linear-gradient(top,  #ededed 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ededed 5%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ededed 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ededed 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ededed 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+background:url('http://chat.porn-xnick.com/images/bg2.jpg') repeat;
+}
+#wrapper{width:996px;margin:0px auto;position:relative;
+}
+
+#backnote {position:absolute;background:url('http://chat.porn-xnick.com/images/bg_aanmelden2.png') no-repeat top right;width:650px;height:640px;top:0px;right:0px;}
+/***Header***/
+#header{width:996px;height:80px;overflow:hidden;}
+#header .logo{float: left;
+    height: 43px;
+    margin-top: 17px;
+    width: 238px;}
+#header .slogan{width:800px;font-family:Tahoma;font-size:17px;color:#111111;text-align:right;padding-top:10px;position:absolute;top:60px;right:0px;}
+.slogan_top {height: 103px;
+    position: absolute;
+    right: 13px;
+    top: 35px;
+    width: 607px;}
+.slogan_top h1 { font-family: 'MyWebFont';font-size:20px;line-height:45px;padding:5px 0 0 0;color:rgb(4,91,154);;}
+.slogan_top h2 { font-family: 'MyWebFont';font-size:18px;padding:5px 0 0 0;}
+.slogan_top p {padding:10px 0 0 0; line-height:22px;}
+.slogan_bottom {bottom: 1px;
+    height: 42px;
+    position: absolute;
+    right: 12px;
+    width: 475px;}	
+#header .login{position:absolute;right:10px;top:10px;}
+#header .login a{font-family:Tahoma;font-size:15px;color:#939292;}
+/************/
+
+/***Content***/
+#content{width:996px;height:650px;}
+#content #form_block{width:996px;height: 600px;position:relative;background-repeat: no-repeat;}
+#content #form_title{position:absolute;right:18px;top:31px;}
+#content #form_title h1{padding:0px;margin:0px;color:#8b191c;font-size:45px;font-family:Arial;text-shadow:1px 1px 0px #fff;}
+#content #bottom_text{font-size:29px;color:#747474;font-family:Tahoma;font-weight:normal;position:absolute;bottom:5px;right:15px;}
+#content #users{width:965px;height:119px;background:#686868;border-radius:0px 0px 10px 10px;-webkit-border-radius:0px 0px 10px 10px;-moz-border-radius:0px 0px 10px 10px;padding:11px 0px 0px 16px;position:relative;}
+
+#content #users .inner{height:107px;overflow:hidden;}
+#content #users .dphoto{width:107px;height:107px;float:left;margin-right:13px;}
+/*************/
+
+/***Footer***/
+#footer{width:996px;font-family:Tahoma;font-size:11px;padding-top:17px;}
+#footer a{color:#8b191c;}
+.handler_bottom {background:rgb(4,91,154);height: 195px;}
+.bottom_girls {height: 195px;  margin: 0 auto;  overflow: hidden;  width: 996px;}
+.cell_girl {width:110px; height:165px;float: left;margin: 16px 16px 0 0;}
+.cell_girl_1 {background:url('http://chat.porn-xnick.com/images/bottom_girls_01.jpg') no-repeat;}
+.cell_girl_2 {background:url('http://chat.porn-xnick.com/images/bottom_girls_02.jpg') no-repeat;}
+.cell_girl_3 {background:url('http://chat.porn-xnick.com/images/bottom_girls_03.jpg') no-repeat;}
+.cell_girl_4 {background:url('http://chat.porn-xnick.com/images/bottom_girls_04.jpg') no-repeat;}
+.cell_girl_5 {background:url('http://chat.porn-xnick.com/images/bottom_girls_05.jpg') no-repeat;}
+.cell_girl_6 {background:url('http://chat.porn-xnick.com/images/bottom_girls_06.jpg') no-repeat;}
+.cell_girl_7 {background:url('http://chat.porn-xnick.com/images/bottom_girls_07.jpg') no-repeat;}
+.cell_girl_8 {background:url('http://chat.porn-xnick.com/images/bottom_girls_08.jpg') no-repeat;margin-right: 0;}
+/************/
+
+/***Form***/
+#form{width:645px; height: 600px; position:absolute;top:20px;right:10px;}
+
+#form_block {
+background-position: 0px bottom; background-repeat: no-repeat no-repeat;  
+height:650px !important;
+}
+
+#form_block #steps{height: 112px;
+    left: 35px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;                                                                                                
+    width: 610px;display:none;
+    }
+#form_block #steps .step{float:left;margin-right: 53px;position: relative;}
+#form_block #steps .step .step_ind{display:block;width:112px;height:112px;padding:0px;background:url('http://chat.porn-xnick.com/images/spr_buttons.png') no-repeat;}
+#form_block #steps .active .step_ind{display:block;width:112px;height:112px;background:url('http://chat.porn-xnick.com/images/spr_buttons.png') no-repeat;}
+
+#form_block #steps #step1_ind {}
+#form_block #steps #step1_ind .step_ind{background:url('http://chat.porn-xnick.com/images2/button_1.png') no-repeat;}
+#form_block #steps #step1_ind.active .step_ind{background:url('images2/active_button_1.png') no-repeat;}
+
+#form_block #steps #step2_ind {}
+#form_block #steps #step2_ind .step_ind{background:url('http://chat.porn-xnick.com/images2/button_2.png') no-repeat;}
+
+
+#form_block #steps #step3_ind {}
+#form_block #steps #step3_ind .step_ind{background:url('http://chat.porn-xnick.com/images2/button_3.png') no-repeat;}
+
+
+#form_block #steps #step4_ind {margin-right: 0}
+#form_block #steps #step4_ind .step_ind{background:url('http://chat.porn-xnick.com/images2/button_4.png') no-repeat;}
+
+
+#form_block #steps .step .step_ind a{display:block;outline:none;border:0px;}
+#form_block #steps .step span{display:block;width:43px;padding-top:5px;color:#a9a9a9;font-family:Tahoma;font-weight:bold;font-size:14px;text-align:center;}
+#form_block #steps .active span{color:#8c191c;}
+#form_block #steps .step {cursor: pointer}
+
+#form_block{background-image: url('http://chat.porn-xnick.com/images2/babe_1.png');}
+
+#step2, #step3, #step4, #v1h, #v2h, #v3h, #v4h, #v1b, #v2b, #v3b, #v4b, #rules, #cta {display:none}
+#step4.important_show {display:block !important}
+#step_block #step1 {display:block}
+#step_block select{line-height:41px;}
+.line {background:transparent url('http://chat.porn-xnick.com/images2/star.png') no-repeat scroll 0 0; height: 13px;
+    position: absolute;
+    right: -35px;
+    top: 50px;
+    width: 15px;
+    z-index: 999;}
+.line.active {background-position:0 -17px;}
+#line1 {left: 132px;}
+#line2 {left: 295px;}
+#line3 {left: 460px;}
+
+/*VALIDATION*/
+.invalid{/* background:transparent url('error.png') no-repeat 0 5px; */ }
+.error_txt_box {color: #ef0031;
+    font-size: 14px;
+    left: 5px;
+    position: absolute;
+    top: 137px;
+    width: 100%;}
+.error_txt {line-height:12px;background:transparent url('http://chat.porn-xnick.com/images/alert.png') no-repeat scroll left center; bottom: 1px;
+    color: #FF0000;
+    line-height: 15px;
+    padding: 0 0 0 20px;
+    position: absolute;}
+.valid,.invalid{display: none;float:left;height:18px;margin-left:5px;width:18px;/* background:transparent url('done.png') no-repeat 0 5px; */ }
+.invalid{}
+#step1 .valid, #step2 .valid, #step3 .valid, #step4 .valid { background:transparent url('http://chat.porn-xnick.com/images/done.png') no-repeat 0 0; display: block;  height: 25px;  position: absolute; width: 25px;top: 9px;}
+#step1 .valid {left: 260px;}
+#step2 .valid {left: 210px;}
+#step3 .valid {left: 164px;}
+#step4 .valid {left: 150px;}
+
+.location_block{font-size:11px;color:#6c6c6c;margin:5px 0 5px 15px;}
+#location_help span {color:#F99604;}
+#year_field .error_txt_box {display: none;}
+div#lookup_address{float:left;}
+div#lookup_address div.tips{height:33px;}
+div#lookup_address div.tips div.help{color:#777;font-size:10px;font-family:Tahoma;font-size:11px;}
+div#lookup_address div.tips div.error{display:none;font-family:Tahoma;font-size:11px;color:#911;}
+.ac_results{margin-top:-1px;padding:0px;border:1px solid #BDC7D8;overflow:hidden;background-color:white;z-index:99999;}
+.ac_results ul{list-style-position:outside;list-style:none;padding:0px;margin:0;}
+.ac_results iframe{display:none;display:block;position:absolute;top:0;left:0;z-index:-1;filter:mask();width:3000px;height:3000px;}
+.ac_results li{margin:0px;padding:2px 5px;cursor:pointer;display:block;font:menu;font-size:12px;overflow:hidden;white-space:nowrap;}
+.ac_loading{background-color:white;background-image:url('http://chat.porn-xnick.com/images/ajax_loading.gif') !important;background-position:99% center !important;background-repeat:no-repeat !important;}
+.ac_results li{font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size:12px;}
+.ac_results span.small{font-size:10px;color:#555;}
+.ac_results p{margin:0;padding:0;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size:11px;background-color:#EEE;padding:3px;}
+.ac_odd {background-color: #ccc; color:#333}
+.ac_even {background-color: #fff; color:#333}
+.ac_over {background-color: #166BDC;color: #fff;}
+.ac_input.error{background-color:#fee;}
+#password_field .error_txt{width:400px;}
+#password_field .error_txt_box, #email_field .error_txt_box {width: 500px;}
+#email_field .error_txt{padding-bottom:0px;}
+.ac_even:hover, .ac_odd:hover {background-color: #166BDC; color:#fff}
+
+#next_step{display:block;width:147px;height:64px;background:url('http://chat.porn-xnick.com/images/next_button.png') no-repeat;cursor:pointer;float:left;position: absolute;
+    right: 10px;
+    top: 50px;}
+#start_button{display:none;width:173px;height:42px;background:url('http://chat.porn-xnick.com/images/start.png') no-repeat;cursor:pointer;float:left;}
+
+#form #step_block {left: 0; position: absolute; top: 217px; width: 645px;}
+#step_block #step1 .all_field_box {left: 270px;  position: absolute; top: 10px;}
+#step_block #step2 .all_field_box {left: 115px;  position: absolute; top: 10px;}
+#step_block #step3 .all_field_box {left: 130px;  position: absolute; top: 10px;}
+#step_block #step4 .all_field_box {left: 130px;  position: absolute; top: 10px;}
+
+#step_block #step1 .txt_box_2, #step_block #step2 .txt_box_2, #step_block #step3 .txt_box_2, #step_block #step4 .txt_box_2 { color: #797979;  font-family: 'Trebuchet MS',Arial; font-size: 24px; font-weight: bold;}
+#step_block select, #email_field #email, #password_field #password {
+	position: relative;
+    border: 1px solid #797979;
+    -webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	background: #ededed; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ededed 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ededed 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ededed 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ededed 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ededed 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    color: #797979;
+    font-family: Arial;
+    font-size: 24px;
+    padding: 15px 10px;
+	}
+#step_block select.invalid_param, #email_field #email.invalid_param, #password_field #password.invalid_param {
+ border:2px solid #DA5757;
+ padding: 14px 10px;
+}	
+#step_block select {top:15px; _top:15px; line-height: 50px;}
+#gender_field {left: 270px; position: absolute; top: 10px;}
+#gender_field .txt_box_2 {color: #797979; font-family: 'Trebuchet MS',Arial; font-size: 24px; font-weight: bold;}
+#gender_field .field_box_2, #step3 .field_box, #step4 .field_box {clear: both;float: none;}
+#gender_field #frmGender {width: 213px;}
+
+
+#birthday_field {width: 372px;}
+#birthday_field .txt_box_2{font-family:Trebuchet MS; font-size:18px; color:#565656; margin-right:13px;}
+#birthday_field #frmDay { clear: both;float: left; margin-right: 5px; width: 90px;}
+#birthday_field #frmMonth { float: left; margin-right: 5px; width: 153px;}
+#birthday_field #frmYear{ float: left;  width: 115px;}
+#email_field {float:left; display: block !important;}
+#email_field #email {width: 330px;padding: 16px 10px;}
+#password_field #password {width:330px;padding: 16px 10px;}
+#terms_block {color: #797979;
+    display: none;
+    font-family: arial;
+    font-size: 11px;
+    position: absolute;
+    top: 285px;
+    z-index: 1;}
+#terms_field {width: 630px;}
+#terms_field .error_txt_box {top: 42px;}
+#terms_block a {color: #797979;text-decoration: underline;}
+#terms_block a:hover {text-decoration: none;}
+.terms {left: -35px;
+    position: relative;
+    text-align: left;
+    top: 15px;
+    width: 680px;}
+#terms {float: left; margin: 0 5px 0 0; padding: 0;}
+
+.all_field_box, .txt_box_2, .field_box_2, .field_box {float: left}
+.txt_box_2{line-height:42px;}
+#postscriptum, #postscriptum p {padding-bottom: 20px;color:#797979; font-family:Arial; font-size:12px;text-align: justify;}
+ #postscriptum {   margin: 0 auto; padding: 25px 5px; width: 980px; }
+#postscriptum h3 {font-weight:bold; text-transform:uppercase;}
+.copyright {margin: 0 auto;  padding: 20px 5px 0;  width: 975px; color: #797979;font-family: Arial;font-size: 12px;}
+
+
+h1 {
+    color: #BF324F;
+    font-size:30px;
+}
+
+h2 {
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size:13px;
+}
+.qbox {
+    width:600px;
+    margin:20px auto 0px auto;
+    text-align: center;
+}
+
+.qbox h3 {
+    font-size:20px;
+    font-family: 'MyWebFont';font-size:20px;line-height:43px;
+}
+
+.qbox img {
+    display:block;
+    margin:10px auto;
+}
+
+.btn {
+
+    display:inline-block;
+    width:170px;
+    border-radius: 5px;
+    background: url('http://chat.porn-xnick.com/images2/inactive_button.png') repeat-x;
+    height:42px;
+    margin:10px;
+    font-size:30px;
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+    padding:10px 0px;
+    text-shadow: 0px -1px 2px #000;
+    cursor: pointer;
+}
+
+.btn-cta {
+    display:inline-block;
+    width:250px;
+    border-radius: 5px;
+    background: url('http://chat.porn-xnick.com/images2/inactive_button.png') repeat-x;
+    height:42px;
+    margin:10px;
+    font-size:30px;
+    font-weight: bold;
+    color:#fff !important;
+    text-align: center;
+    padding:10px 0px;
+    text-shadow: 0px -1px 2px #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {font-size:15px; display:block; height:40px; text-align: left; margin:5px 0px; padding-left:45px; padding-top:5px; background: url('http://chat.porn-xnick.com/images/check.png') no-repeat;}
+
+#v4b {background: url('http://chat.porn-xnick.com/images/Info.png') no-repeat;}
+
+.rule {
+    float:left;
+    margin:0px 5px;
+    width:190px;
+}
+
+#rules h4 {
+    font-size:15px;
+    margin:0;
+    padding:5px 0 0 0;
+    
+}
+
+#rules p {
+    padding:0px 0 0 0; line-height:22px;
+    
+}
+
+
+
+.btn:hover, .btn-cta:hover {
+    background: url('http://chat.porn-xnick.com/images2/active_button.png') repeat-x;
+}
+
