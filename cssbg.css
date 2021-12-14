@@ -1,0 +1,224 @@
+body {
+    background: url(/nnlogo.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 350px;
+}
+
+#fader {
+    display: none;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-android {
+    max-width: 342px;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.panel-default> .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.panel-android-heading {
+    background-color: #f5f5f5!important;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.panel-android-body {
+    background-color: #cee1de;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+    border: none;
+    color: #333 !important;
+    text-align: left;
+}
+
+.panel-body {
+    padding: 10px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.panel-android-heading span {
+    color: #7b7b7b !important;
+    font-weight: 500;
+    vertical-align: super;
+}
+
+.btns-android {
+    border-top: 1px solid #e2e2e2;
+    text-align: center;
+    font-weight: 700;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 42px;
+}
+
+.btn:hover {
+    color: #333;
+    background: #e0e0e0;
+}
+
+.btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    color: #333;
+    background: #d2d2d2;
+    padding: 3px 45px 3px 45px;
+    border: solid #adadad 1px;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(220, 220, 220, 1);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(220, 220, 220, 1);
+    box-shadow: 0px 1px 0px 0px rgba(220, 220, 220, 1);
+    cursor: pointer;
+}
+
+.panel-body p {
+    font-size: 16px;
+}
+number_txt {
+font-size: 14px;
+line-height: 16px;
+padding: 11px 10px;
+max-width: 192px;
+width: 100%;
+margin: 0 10px;
+text-align: center;
+background: #E8F4FF;
+border-radius: 15px;
+float: right;
+position: 60%;
+right: 0;
+bottom: 2%;
+z-index: 1000;
+}
+#vnumber {
+float: left;
+font-size: 15px;
+text-align: center;
+padding: 0px 0px;
+font-weight: bold;
+}
+
+#footer {
+    position:fixed;
+    bottom:0;
+    color: #424242;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size:11px;
+    padding-bottom: 10px;
+    width: 100%;
+	}
+#footer a {
+    color: #424242;
+    text-decoration: none;
+}
+
+.deleteMeetingClose {
+font-size: 2em;
+cursor: pointer;
+position: absolute;
+right: 10px;
+top: 0px;
+text-decoration: none;
+color:#c2c2c2;
+}
+
+#actualizaciones{ padding-top: 5px; display: inline-block; text-align: center;}
+#os{ display: none;}
+  #footer{padding: 0.3em 1em; text-align: center;box-sizing:border-box;	}
+  @media all and (max-width: 360px){
+  #dialog-title img{ width: 30px; height: auto;}
+  }
+.notificatins--bar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: -15px;
+    top: 10%;
+    overflow: hidden;
+
+}
+.notififation--image > img {
+    border-radius: 30px;
+    width: 74px;
+     box-shadow: 1px 2px 1px #333;
+}
+.notififation--image {
+    float: right;
+    position: relative;
+}
+.notification--count {
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+    justify-content: center;
+    position: absolute;
+    width: 16px;
+}
+.notififation--message {
+    background: #7CBCED none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    float: left;
+    font-size: 12px;
+        font-weight: bold;
+    margin-right: 10px;
+    padding: 5px 10px;
+    position: relative;
+}
+.notififation--message::after {
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #7CBCED;
+    border-top: 6px solid transparent;
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: 13px;
+    width: 0;
+    text-shadow: 0 0 2px #52a1d4;
+}
+
