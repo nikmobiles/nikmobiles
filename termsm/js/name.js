@@ -1,0 +1,1 @@
+document.write('Nik-mobile-net LTD')
